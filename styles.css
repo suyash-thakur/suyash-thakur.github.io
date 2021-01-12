@@ -1,0 +1,262 @@
+@import url("https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;700&display=swap");
+body {
+  background-color: #f8f9fb;
+  font-family: "Inter", sans-serif;
+  overflow-x: hidden;
+}
+* {
+  overflow-x: hidden;
+}
+.navbar-brand > img {
+  max-width: 120px;
+}
+.nav-link {
+  color: #181818 !important;
+}
+.nav-item {
+  padding-left: 30px;
+}
+.sign-in {
+  border: 2px solid #0f47c0 !important;
+  color: #0f47c0;
+  border-radius: 50px;
+  padding-left: 25px;
+  padding-right: 25px;
+}
+.sign-in :hover {
+  border: 2px solid #0f47c0 !important;
+  color: #0f47c0;
+  border-radius: 50px;
+  padding-left: 25px;
+  padding-right: 25px;
+}
+.sign-up {
+  background-color: #0f47c0;
+  margin-left: 25px;
+  border-radius: 50px;
+  padding-left: 25px;
+  padding-right: 25px;
+  color: #ffffff !important;
+}
+h1 {
+  font-weight: 700;
+  font-size: 60px;
+}
+p {
+  color: #747474;
+  font-weight: 500;
+}
+.getStarted {
+  padding: 15px 30px 15px 30px;
+  background-color: #1c2333;
+  color: #ffffff;
+  border-radius: 50px;
+}
+.navbar {
+  padding: 20px;
+}
+.hero-img {
+  max-width: 650px;
+  width: 100%;
+  height: auto;
+}
+.brand-cont {
+  display: flex;
+  background-color: #ffffff;
+  box-shadow: 0px 20px 120px #7474741a;
+  border-radius: 20px;
+  padding: 50px;
+}
+.card-cont {
+  background-color: #ffffff;
+  padding-left: 145px;
+  padding-right: 145px;
+  margin-top: 70px;
+}
+.card-body {
+  width: 300px;
+  min-height: 308px;
+  width: 90%;
+  background: #ffffff 0% 0% no-repeat padding-box;
+  border-radius: 20px;
+  padding: 20px;
+}
+.shadow {
+  box-shadow: 0px 15px 20px #7474741a;
+  width: fit-content;
+  margin: auto;
+}
+.shadow:hover {
+  box-shadow: 0px 30px 40px #74747440 !important;
+  cursor: pointer;
+}
+.second-head {
+  font-size: 40px;
+}
+.icon-cont {
+  border-radius: 20px;
+  padding: 20px;
+
+  width: fit-content;
+}
+.icon-cont > img {
+  width: 35px;
+}
+.card-head {
+  font-weight: 500;
+  font-size: 25px;
+}
+.card-paragraph {
+  color: #747474;
+}
+.showMoreButton {
+  background-color: #1c2333;
+  color: #fff;
+  padding-left: 25px;
+  padding-right: 25px;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  border-radius: 50px;
+  border: none;
+}
+.testimonial-mob {
+  display: none;
+}
+.email-cont {
+  display: flex;
+  width: 100%;
+  justify-content: center;
+  align-items: center;
+}
+.inpur-email {
+  border: none;
+  background-color: none;
+  padding: 5px;
+  max-width: 240px;
+}
+.mail {
+  padding: 15px 30px 15px 30px;
+  background-color: #1c2333;
+  color: #ffffff;
+  border-radius: 50px;
+  font-size: 13px;
+}
+.input-background {
+  background-color: white;
+  border-radius: 40px;
+  padding-left: 20px;
+}
+.newsletter-small {
+  display: none;
+}
+.second-order > h5 {
+  color: #ffffff;
+}
+.second-order > ul > li > a {
+  color: #ffffff !important;
+  font-weight: 300;
+  font-size: 12px;
+}
+a {
+  text-decoration: none;
+}
+.button-mobile {
+  display: none;
+}
+@media (max-width: 1000px) {
+  .newsletter-big {
+    display: none;
+  }
+  .newsletter-small {
+    display: inherit;
+  }
+  .button-big {
+    display: none !important;
+  }
+  .button-mobile {
+    display: inherit;
+  }
+}
+@media (max-width: 480px) {
+  .inpur-email {
+    border: none;
+    background-color: none;
+    padding: 5px;
+    max-width: 130px;
+  }
+  .mail {
+    padding: 13px 18px 13px 18px;
+    background-color: #1c2333;
+    color: #ffffff;
+    border-radius: 50px;
+    font-size: 10px;
+  }
+  .input-background {
+    background-color: white;
+    border-radius: 40px;
+    padding-left: 10px;
+  }
+  .input-background > img {
+    width: 18px;
+  }
+}
+@media (max-width: 762px) {
+  .nav-item {
+    padding-left: 0px;
+  }
+  .first-order {
+    order: 0 !important;
+  }
+  .card-head {
+    font-weight: 500;
+    font-size: 25px;
+  }
+  .second-order {
+    order: 1 !important;
+  }
+  .hero-img {
+    max-width: 350px;
+  }
+  .testimonial-mob {
+    display: inline;
+  }
+  .testimonial {
+    display: none;
+  }
+  .column-hero {
+    order: 2;
+    text-align: center;
+  }
+  .column-hero-1 {
+    text-align: center;
+  }
+  .card-paragraph {
+    color: #747474;
+    font-size: 18px;
+  }
+  .button-cont {
+    justify-content: center;
+    align-items: center;
+  }
+  h1 {
+    font-size: 35px;
+  }
+  .brand-cont {
+    padding: 20px;
+  }
+  .second-head {
+    font-size: 25px;
+  }
+  .card-cont {
+    background-color: #ffffff;
+    padding-left: 35px;
+    padding-right: 35px;
+    margin-top: 70px;
+  }
+  .card-body {
+    max-width: 350px;
+  }
+  .center {
+    justify-content: center;
+  }
+}
