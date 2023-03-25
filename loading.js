@@ -58,7 +58,6 @@ character.style.position = 'absolute';
 character.style.visibility = 'hidden';
 document.body.appendChild(character);
 const widthOfOneCharacter = character.clientWidth;
-console.log(widthOfOneCharacter);
 const windowWidth = window.innerWidth;
 const widthOfFill = Math.max(windowWidth * 0.5, 350);
 fill.style.maxWidth = `${widthOfFill}px`;
@@ -86,8 +85,7 @@ const interval = setInterval(() => {
         const input = document.getElementById("command-input");
         input.focus();
     clearInterval(interval);
-  } else {
-    console.log(fill.style.width);
+    } else {
     if(currentWidth < widthOfFill) {
         currentWidth += progress/100 * widthOfFill;
         asciiText = done_ASCII.repeat(progress);

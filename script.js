@@ -132,7 +132,6 @@ const commandFunctions = {
         return tableContainer;
     },
   open: function (command) {
-    console.log(command);
 
       const linkName = command.split(" ")[1];
       if (links[linkName]) {
@@ -217,7 +216,6 @@ input.addEventListener("keydown", function (event) {
 });
 
 input.addEventListener("blur", function (event) {
-  console.log("blurred");
     input.focus();
 });
 
@@ -228,7 +226,6 @@ function resizeInput() {
 // scroll to bottom
 function scrollToBottom() {
   const shell = document.getElementById("shell");
-    console.log("scrolling to bottom", document.body.scrollHeight, output.scrollHeight);
     shell.scrollTop = output.scrollHeight;
     window.scroll(0, output.scrollHeight);
 }
