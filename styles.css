@@ -1,0 +1,132 @@
+ html, body {
+    margin: 0px;
+    padding: 0px;
+    font-family: monospace;
+    overflow-y: hidden;
+    background-color: black;
+}
+
+.shell {
+    color: white;
+    font-family: monospace;
+    overflow: auto;
+    padding: 10px;
+    height: 100vh;  
+
+}
+#loading {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+
+#fill {
+    overflow: clip
+}
+.loading-bar {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin-top: 10px;
+    height: 90vh;
+}
+#loading-text {
+    margin-top: 20px;
+}
+#loading-ascii-art {
+    text-align: center;
+}
+#command-interface {
+    vertical-align: top
+}
+.menu {
+    margin-bottom: 10px;
+}
+
+.menu-item {
+    cursor: pointer;
+    margin-right: 10px;
+}
+
+.prompt {
+    display: inline-block;
+}
+
+.input {
+    background-color: transparent;
+    border: none;
+    color: white;
+    font-family: monospace;
+    font-size: inherit;
+    outline: none;
+    width: 1ch;
+    caret-color: transparent;
+}
+
+.output, .output-project {
+    background-color: black;
+    color: white;
+    margin: 0;
+    padding: 0;
+    overflow-y: hidden;
+  }
+
+  
+  .text-green {
+    color: #7CFC00;
+  }
+  
+  .text-blue {
+    color: #B0E0E6;
+  }
+  
+  .text-yellow {
+    color: #FFFF00;
+  }
+  
+  .text-pink {
+    color: #FF1493;
+  }
+
+  .text-red {
+    color: #FF0000;
+  } 
+
+    .text-orange {
+        color: #FFA500;
+    }
+
+
+#command-line {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+#prompt {
+    font-size: 12px;
+}
+
+#command {
+    font-size: 12px;
+    padding-left: 10px;
+}
+
+#cursor {
+    font-size: 24px;
+    animation: blink 0.8s steps(1) infinite;
+}
+
+@keyframes blink {
+    0% {
+        opacity: 1;
+    }
+    50% {
+        opacity: 0;
+    }
+    100% {
+        opacity: 1;
+    }
+}

@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet"  href="styles.css" />
+</head>
+
+<body>
+    <div class="shell" id="shell">
+        <div id = "loading" class="text-blue">
+            <br>
+            <br>
+            <div class="loading-bar">
+                <div id="loading-ascii-art"></div>
+                <div id="loading-text"></div>
+                <div id = "fill"></div>
+                <pre class="loading-bar__animation"></pre>
+              </div>
+        </div>
+        <div id = "command-interface">
+            <pre id="ascii-art"></pre>
+            <div id="output"></div>
+            <div id="command-line">
+                <span id="prompt" ><span class="text-blue">@suyash-thakur/portfolio:$</span></span>
+                <input type="text" id="command-input" class="input" autofocus>
+                <span id="cursor">_</span>
+            </div>
+        </div>
+    </div>
+</body>
+
+</html>
+
+<script src="loading.js"></script>
+<script src="script.js"></script>
