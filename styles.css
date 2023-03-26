@@ -98,6 +98,10 @@
         color: #FFA500;
     }
 
+    .text-gray {
+        color: #acadab;
+    }
+
 
 #command-line {
     display: flex;
@@ -130,3 +134,18 @@
         opacity: 1;
     }
 }
+@media screen and (max-width: 800px) {
+    .ascii, #loading-ascii-art {
+        font-size: 8px;
+        
+    }
+}
+/* Make ascii-art mobile responsive */
+@media screen and (max-width: 600px) {
+    .ascii, .ascii-art, #loading-ascii-art {
+        font-size: 5px;
+        
+    }
+}
+
+

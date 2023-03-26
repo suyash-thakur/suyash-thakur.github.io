@@ -21,14 +21,16 @@
             <br>
             <br>
             <div class="loading-bar">
-                <div id="loading-ascii-art"></div>
+                <pre id="loading-ascii-art"></pre>
                 <div id="loading-text"></div>
                 <div id = "fill"></div>
                 <pre class="loading-bar__animation"></pre>
               </div>
         </div>
         <div id = "command-interface">
-            <pre id="ascii-art"></pre>
+            <div class="ascii">
+                <pre id="ascii-art"></pre>
+            </div>
             <div id="output"></div>
             <div id="command-line">
                 <span id="prompt" ><span class="text-blue">@suyash-thakur/portfolio:$</span></span>
@@ -40,6 +42,6 @@
 </body>
 
 </html>
-
+<script src="/commands/ascii.js" type="module"></script>
 <script src="loading.js"></script>
-<script src="script.js"></script>
+<script src="script.js" type="module"></script>
